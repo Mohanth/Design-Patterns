@@ -7,6 +7,9 @@ Builder class builds the final object in step-by-step procedure.
 
 
 class Director:
+    """
+    Construct an object using Builder interface.
+    """
     __builder = None
 
     def setBuilder(self, builder):
@@ -52,6 +55,7 @@ class Builder:
     def getBody(self): pass
 
 
+# concrete class
 class JeepBuilder(Builder):
 
     def getEngine(self):
