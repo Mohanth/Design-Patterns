@@ -3,6 +3,8 @@ Facade design pattern provides a unified interface to a set of interfaces in a s
 
 "If something is ugly, hide it inside an object."
 
+It is designed to hide the intricacy of a complex system by providing the client with a class which acts as an interface.
+
 Reference :
     https://python-3-patterns-idioms-test.readthedocs.io/en/latest/ChangeInterface.html
 """
